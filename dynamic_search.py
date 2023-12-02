@@ -12,7 +12,6 @@ def max_stocks(N, Stocks_and_values, Amount):
                 # Consider the maximum value of either including or excluding the current stock
                 possible_stock[i][j] = max(possible_stock[i - 1][j], possible_stock[i - 1][j - Stocks_and_values[i - 1][1]] + Stocks_and_values[i - 1][0])
 
-
     return possible_stock[N][Amount]
 
 N = 0
