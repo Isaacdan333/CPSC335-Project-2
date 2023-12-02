@@ -2,7 +2,7 @@
 
 Names: Isaac Perez, Charlie Tuong, Elijah David
 
-Emails: isaacdan@csu.fullerton.edu, charlestuong150@gmail.com, ejdavid122@csu.fullerton.edu
+Emails: isaacdan@csu.fullerton.edu, cturne@csu.fullerton.edu, ejdavid122@csu.fullerton.edu
 
 # How to run:
 * Change the size and values of the Stocks_and_values array as you see fit.
