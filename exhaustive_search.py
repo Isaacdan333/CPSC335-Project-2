@@ -1,6 +1,6 @@
 def stock_maximization(N, Stocks_and_values, Amount):
     max_stocks = 0
-    max_stocks_combination = None
+    
 
     # make all possible combinations
     for i in range(2**N):
@@ -17,7 +17,6 @@ def stock_maximization(N, Stocks_and_values, Amount):
         #check to see if combination valid and maximizes # of stocks
         if current_value <= Amount and current_stock > max_stocks:
             max_stocks = current_stock
-            #max_stocks_combination = combinations
 
     return max_stocks
 
