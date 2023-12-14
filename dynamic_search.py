@@ -26,3 +26,4 @@ if N > 0 and N < 1000:
     print("The maximum amount for stocks to buy are:", result)
 else:
     print("Invalid constraints")
+####sdfjkndsjfnsdjfnjsdnfnsjfdknkfjsdnjfn
